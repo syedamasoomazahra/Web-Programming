@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment 2 - Calculator Template</title>
+</head>
+
+<body style="background-color: #ffffff; font-family: Verdana, sans-serif;">
+
+    <form>
+
+        <table align="center" cellspacing="12" cellpadding="0" style="background-color: #f7f7f7; padding: 10px;">
+
+            <!-- Row 1: Display Screen -->
+            <tr>
+                <td colspan="4">
+                    <input type="text" style="width: 360px; height: 120px; border: none; background-color: #f7f7f7; font-size: 32px; text-align: right;">
+                </td>
+            </tr>
+
+            <!-- Row 2: Square Root, Brackets, Percentage -->
+            <tr>
+                <td><input type="submit" value="√" style="width: 84px; height: 56px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="(" style="width: 84px; height: 56px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value=")" style="width: 84px; height: 56px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="%" style="width: 84px; height: 56px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+            <!-- Row 3: 7, 8, 9, Divide -->
+            <tr>
+                <td><input type="submit" value="7" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="8" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="9" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="/" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+            <!-- Row 4: 4, 5, 6, Multiply -->
+            <tr>
+                <td><input type="submit" value="4" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="5" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="6" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="×" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+            <!-- Row 5: 1, 2, 3, Subtract -->
+            <tr>
+                <td><input type="submit" value="1" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="2" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="3" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="-" style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+            <!-- Row 6: 0 (colspan 2), Decimal Point, Add (rowspan 2) -->
+            <tr>
+                <td colspan="2"><input type="submit" value="0" style="width: 180px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td><input type="submit" value="." style="width: 84px; height: 78px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+                <td rowspan="2"><input type="submit" value="+" style="width: 84px; height: 168px; border: none; background-color: #efefef; color: #555555; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+            <!-- Row 7: Delete (red), Equal (green, colspan 2) -->
+            <tr>
+                <td><input type="submit" value="Del" style="width: 84px; height: 78px; border: none; border-radius: 4px; background-color: #f0105a; color: white; font-size: 22px; font-weight: bold;"></td>
+                <td colspan="2"><input type="submit" value="=" style="width: 180px; height: 78px; border: none; border-radius: 4px; background-color: #80c785; color: white; font-size: 22px; font-weight: bold;"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
