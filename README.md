@@ -1,5 +1,4 @@
-# Web-Programming
-Web Programming Tasks and Assignments
+
 # Web Programming
 
 Welcome to my **Web Programming Repository!**
